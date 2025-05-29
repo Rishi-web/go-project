@@ -1,0 +1,1 @@
+ File operations in Go are simple and efficient.
