@@ -6,11 +6,11 @@ import (
 	"net/http"
 )
 
-const getUrl = "http://localhost:8080/get"
+const Url = "http://localhost:8081/get"
 
 func main() {
 	fmt.Println("Web Requests in Go")
-	performGetRequest(getUrl)
+	performGetRequest(Url)
 }
 
 func performGetRequest(url string) {
